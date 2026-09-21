@@ -31,7 +31,7 @@ const SearchBar = () => {
           type="text"
           placeholder="Search Anything..."
         />
-        <button className="hover:bg-transparent hover:border-2 hover:border-gray-500 px-4  py-2  rounded active:scale-95 bg-blue-800">
+        <button className="hover:bg-transparent hover:border-2 hover:border-gray-500 px-4  py-2  rounded active:scale-95 bg-blue-800 cursor-pointer">
           Search
         </button>
       </form>
