@@ -26,6 +26,7 @@ const ResultGrid = () => {
             title: item.alt_description,
             thumbnail: item.urls.small,
             src: item.urls.full,
+            url: item.links.html,
           }));
         }
         if (activeTabs == "videos") {
@@ -36,6 +37,7 @@ const ResultGrid = () => {
             title: item.user.name || "video",
             thumbnail: item.image,
             src: item.video_files[0].link,
+            url: item.url
           }));
         }
         console.log(data);

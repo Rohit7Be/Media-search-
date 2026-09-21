@@ -12,10 +12,10 @@ const Tabs = () => {
 
 
   return (
-    <div className="flex gap-4 p-10">
+    <div className="flex gap-4 p-10 items-center justify-center">
       {tabs.map(function (elem, idx) {
         return (
-          <button className={`${activeTab == elem ? "bg-green-600" : "bg-gray-700"} p-4 transition`} key={idx} onClick={() => {
+          <button className={`${activeTab == elem ? "bg-green-600" : "bg-gray-700"} px-4 py-2 transition cursor-pointer rounded-2xl capitalize`} key={idx} onClick={() => {
             dispatch(setActiveTabs(elem))
           }}>
             {elem}

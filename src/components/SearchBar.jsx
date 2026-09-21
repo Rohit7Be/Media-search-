@@ -27,11 +27,11 @@ const SearchBar = () => {
             console.log(e.target.value)
             setText(e.target.value)
           }}
-          className="border-2 rounded px-4 py-2 text-xl w-[30rem]"
+          className=" bg-gray-900 rounded px-4 py-2 text-xl w-[30rem]"
           type="text"
           placeholder="Search Anything..."
         />
-        <button className="border-2 p-2  rounded active:scale-95">
+        <button className="hover:bg-transparent hover:border-2 hover:border-gray-500 px-4  py-2  rounded active:scale-95 bg-blue-800">
           Search
         </button>
       </form>
