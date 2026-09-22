@@ -58,7 +58,7 @@ const ResultGrid = () => {
   if (loading) return <h1 className="p-10 text-2xl">Loading...</h1>;
   if (error) return <h1 className="p-10 text-2xl">Error loading results</h1>;
 
-  return <div className="flex justify-between flex-wrap w-full gap-6 overflow-auto p-10">
+  return <div className="flex justify-center md:justify-between flex-wrap w-full gap-6 overflow-auto p-10">
     {results.map((elem, idx) => {
       return <div key={idx}>
         <ResultCard item={elem}/>
