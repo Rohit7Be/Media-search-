@@ -37,6 +37,17 @@ Media Search is a responsive web application for finding photos and videos from 
 - How to persist client-side state with `localStorage` and prevent duplicate saved items.
 - How to build responsive UI layouts and interactive states with Tailwind CSS.
 
+## Glimpse 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d484c4e5-d73b-4665-bc07-64968bdaa684" width="48%" alt="Desktop Home" />
+  <img src="https://github.com/user-attachments/assets/d52c741c-d3e3-4f4b-959d-18fe5566592e" width="48%" alt="Desktop Collection" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5a535df7-1769-4a83-b126-555c89a21da0" width="30%" alt="Mobile View" />
+</p>
+
+
 ## Getting Started
 
 1. Install dependencies:
