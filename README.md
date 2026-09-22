@@ -1,16 +1,68 @@
-# React + Vite
+# Media Search
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Media Search is a responsive web application for finding photos and videos from one place. Enter a search term, switch between photo and video results, and save the media you want to revisit in a personal collection. Photo search is powered by Unsplash and video search by Pexels.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack Used
 
-## React Compiler
+- React 19 for the user interface
+- Vite for development and production builds
+- Redux Toolkit and React Redux for application state
+- React Router for Home and Collection page navigation
+- Axios for API requests
+- Tailwind CSS for styling and responsive layouts
+- Unsplash API for photo search
+- Pexels API for video search
+- Browser `localStorage` to persist saved collection items
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Search media by keyword.
+- Browse separate photo and video result tabs.
+- Fetch photo results from Unsplash and video results from Pexels.
+- View images and videos in media cards, with links to their original source.
+- Save unique media items to a personal collection.
+- Remove individual saved items or clear the entire collection.
+- Keep the saved collection after a browser refresh using `localStorage`.
+- Show loading and error states while search results are being requested.
+- Navigate between the search home page and collection page.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## What I Learned
+
+- How to structure a React application with reusable components and page-based routing.
+- How to manage shared search, tab, result, and collection state with Redux Toolkit slices.
+- How to integrate multiple third-party APIs with Axios and normalize their different response shapes for one UI.
+- How to trigger data fetching in response to Redux state changes with `useEffect`.
+- How to persist client-side state with `localStorage` and prevent duplicate saved items.
+- How to build responsive UI layouts and interactive states with Tailwind CSS.
+
+## Getting Started
+
+1. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+2. Create a `.env` file in the project root and add your API keys:
+
+   ```env
+   VITE_UNSPLASH_KEY=your_unsplash_access_key
+   VITE_PEXELS_KEY=your_pexels_api_key
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open the local URL shown in the terminal.
+
+## Available Scripts
+
+- `npm run dev` — start the development server
+- `npm run build` — create a production build
+- `npm run preview` — preview the production build
+- `npm run lint` — run ESLint
