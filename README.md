@@ -40,11 +40,19 @@ I made this project to learn about Redux Toolkit, i learned about state manageme
 - How to build responsive UI layouts and interactive states with Tailwind CSS.
 
 ## Glimpse 
-
-  <img src="https://github.com/user-attachments/assets/d484c4e5-d73b-4665-bc07-64968bdaa684" alt="Desktop Home" />
-  <img src="https://github.com/user-attachments/assets/5a535df7-1769-4a83-b126-555c89a21da0"  alt="Mobile View" />
-  <img src="https://github.com/user-attachments/assets/d52c741c-d3e3-4f4b-959d-18fe5566592e" alt="Desktop Collection" />
-
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="70%">
+        <img width="100%" alt="Desktop View 1" src="https://github.com/user-attachments/assets/d484c4e5-d73b-4665-bc07-64968bdaa684" /><br/><br/>
+        <img width="100%" alt="Desktop View 2" src="https://github.com/user-attachments/assets/d52c741c-d3e3-4f4b-959d-18fe5566592e" />
+      </td>
+      <td align="center" valign="top" width="30%">
+        <img width="220" alt="Mobile View" src="https://github.com/user-attachments/assets/5a535df7-1769-4a83-b126-555c89a21da0" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## Getting Started
 
