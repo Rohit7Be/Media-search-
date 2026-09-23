@@ -4,6 +4,8 @@
 
 Media Search is a responsive web application for finding photos and videos from one place. Enter a search term, switch between photo and video results, and save the media you want to revisit in a personal collection. Photo search is powered by Unsplash and video search by Pexels.
 
+I made this project to learn about Redux Toolkit, i learned about state management and localstorage with Redux.
+
 ## Tech Stack Used
 
 - React 19 for the user interface
@@ -38,14 +40,10 @@ Media Search is a responsive web application for finding photos and videos from 
 - How to build responsive UI layouts and interactive states with Tailwind CSS.
 
 ## Glimpse 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/d484c4e5-d73b-4665-bc07-64968bdaa684" width="48%" alt="Desktop Home" />
-  <img src="https://github.com/user-attachments/assets/d52c741c-d3e3-4f4b-959d-18fe5566592e" width="48%" alt="Desktop Collection" />
-</p>
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/5a535df7-1769-4a83-b126-555c89a21da0" width="30%" alt="Mobile View" />
-</p>
+  <img src="https://github.com/user-attachments/assets/d484c4e5-d73b-4665-bc07-64968bdaa684" alt="Desktop Home" />
+  <img src="https://github.com/user-attachments/assets/5a535df7-1769-4a83-b126-555c89a21da0"  alt="Mobile View" />
+  <img src="https://github.com/user-attachments/assets/d52c741c-d3e3-4f4b-959d-18fe5566592e" alt="Desktop Collection" />
 
 
 ## Getting Started
